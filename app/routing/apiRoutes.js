@@ -3,6 +3,9 @@ var friends = require("../data/friends");
 
 module.exports = function(app){ 
 
+
+
+
 //A GET route with the url /api/friends. This will be used to display a JSON of all possible friends.
 app.get("/api/friends", function(req, res) {
      res.json(friends);
@@ -12,7 +15,7 @@ app.post("/api/friends", function(req, res) {
    
 
   var userInput = req.body;
-   console.log('userInput = ' + JSON.stringify(userInput));
+   //çconsole.log('userInput = ' + JSON.stringify(userInput));
 
   var userResponses = userInput.scores;
 
@@ -22,8 +25,11 @@ app.post("/api/friends", function(req, res) {
   // loop through friends currently on list
   for (var i = 0; i < friends.length; i++) {
      console.log('friend = ' + JSON.stringify(friends[i]));
+     for (var c = 0; c < userResponses.length; c++) {
+     //console.log('Scores = '+ JSON.stringify(friends[i].scores[c]));
 
-  
+     //figure out how to find difference between scores
+     }
 
   }
 // Add friend
