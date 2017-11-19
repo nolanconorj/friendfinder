@@ -1,7 +1,7 @@
 var friendsArray = [
     {
         "name": "conor",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo": "https://www.nbc.com/sites/nbcunbc/files/files/images/2015/3/19/140228_2749534_Weekend_Update___Segment_Harry_Caray_anvver_2.jpg",
     "scores": [
     "5",
     "1",
@@ -17,7 +17,7 @@ var friendsArray = [
 },
     {
         "name": "alexandra",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo": "https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg",
     "scores": [
     "1",
     "1",

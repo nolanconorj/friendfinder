@@ -23,15 +23,6 @@ app.use(bodyParser.json());
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
-/*app.get("/home", function(req, res) {
-    res.sendFile(path.join(__dirname, "app/public/home.html"));
-  });
-  
-  app.get("/survey", function(req, res) {
-    res.sendFile(path.join(__dirname, "app/public/survey.html"));
-  });*/
-
-
 // LISTENER
 // The below code effectively "starts" our server
 
